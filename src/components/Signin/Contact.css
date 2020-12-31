@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("../../images/cross1.jpg") center center/ cover no-repeat,
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+  position: relative;
+  height: 100%;
+}
+.sound {
+  outline: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  outline: none;
+  text-align: center;
+  font-style: italic;
+  color: #fff;
+  text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0.72);
+}
+b:first-letter {
+  font-size: 1.5rem;
+}
+.pigeon img {
+  width: 5rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  transition: all 0.3s;
+}
+.pigeon img:hover {
+  transform: scale(1.05);
+}
+@media screen and (max-width: 480px) {
+  .pigeon img {
+    margin-left: 16px;
+    margin-top: 8px;
+  }
+}
+
+.container-1 {
+  width: 90%;
+  margin: 100px auto;
+  box-shadow: 1px 1px 4px 1px lightgrey;
+  height: 100%;
+}
+.container-1 form {
+  width: 100%;
+  padding: 10px;
+  background: #010101;
+  margin-top: -4rem;
+}
+.container-1 form label {
+  letter-spacing: 0.1rem;
+  font-style: italic;
+  display: block;
+  margin-bottom: 3px;
+}
+.container-1 input,
+.container-1 textarea {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  box-shadow: 1px 1px 4px 1px rgb(58, 57, 57);
+}
+.container-1 input:focus,
+.container-1 textarea:focus {
+  box-shadow: 1px 1px 4px 1px rgb(49, 170, 240);
+}
+.singleItem {
+  margin: 10px 0;
+  color: #fff;
+}
+.btn-1 {
+  width: 100%;
+  text-align: center;
+}
+.btn-1 a {
+  text-decoration: none;
+  color: #010101;
+}
+.btn-1 button {
+  width: 150px;
+  font-size: 18px;
+  letter-spacing: 0.2rem;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  margin-top: 5px;
+}
+.btn-1 button:hover {
+  border: 1px solid #fefefe;
+  background: rgb(199, 202, 199);
+  cursor: pointer;
+}
+.msg {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  letter-spacing: 0.2rem;
+  font-style: italic;
+  width: 340px;
+  padding: 3px;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: none;
+  color: rgb(5, 33, 110);
+  background: white;
+}
+.msgAppear {
+  display: block;
+}
+@media screen and (min-width: 664px) {
+  .container-1 {
+    width: 60%;
+    margin: 100px auto;
+    box-shadow: 1px 1px 4px 1px lightgrey;
+  }
+}
+@media screen and (min-width: 986px) {
+  .container-1 {
+    width: 40%;
+    margin: 100px auto;
+    box-shadow: 1px 1px 4px 1px lightgrey;
+  }
+}
