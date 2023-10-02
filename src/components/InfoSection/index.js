@@ -108,7 +108,7 @@ const InfoSection = ({
           </a>
         </h4>
         <p style={{ marginTop: "2rem" }}>
-          Spotkania odbywają się w&nbsp;czwartki po Mszy św. (godz. 18.00)
+          Spotkania odbywają się w&nbsp;środy po Mszy św. (godz. 18.00)
           w&nbsp;kościele.
         </p>
       </Modal>
