@@ -177,7 +177,7 @@ const Footer = () => {
                 &nbsp;Przyjdź...
               </FooterLink>
               <FooterLink
-                to="/www.youtube.com/watch?v=btX5HTjVZic&list=PLnPlkplSf-ga3VXlwp2oQhnP20quXdPAz&index=4"
+                to="//www.youtube.com/watch?v=btX5HTjVZic&list=PLnPlkplSf-ga3VXlwp2oQhnP20quXdPAz&index=4"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -185,7 +185,7 @@ const Footer = () => {
                 &nbsp;Ta&nbsp;Krew...
               </FooterLink>
               <FooterLink
-                to="/www.youtube.com/watch?v=GkWN7dgd81E&list=PLnPlkplSf-ga3VXlwp2oQhnP20quXdPAz&index=5"
+                to="//www.youtube.com/watch?v=GkWN7dgd81E&list=PLnPlkplSf-ga3VXlwp2oQhnP20quXdPAz&index=5"
                 rel="noopener noreferrer"
                 target="_blank"
               >
